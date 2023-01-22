@@ -10,7 +10,6 @@ A demo website for a company who is in fitness business. [Go to Website]
 [<img align="left" alt="CSS3" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" style="padding-right:10px;" />](https://www.w3schools.com/css/default.asp)
 [<img align="left" alt="GitHub" width="26px" src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" style="padding-right:10px;" />](https://tailwindcss.com/)
 [<img align="left" alt="GitHub" width="26px" src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" style="padding-right:10px;" />](https://sass-lang.com/)
-[<img align="left" alt="GitHub" width="26px" src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" style="padding-right:10px;" />](https://redux.js.org/)
 [<img align="left" alt="GitHub" width="26px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="padding-right:10px;" />](https://github.com/)
 
 [Go to Website]: https://ashishnikam111000.github.io/Fitness-sample-website/
