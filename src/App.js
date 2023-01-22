@@ -75,7 +75,7 @@ function App() {
 
       {/* NAVBAR */}
       <Suspense>
-        <div className='Navbar flex items-center justify-center w-full'>
+        <div className='Navbar flex items-center justify-center w-full backdrop-blur-sm'>
           <img className='w-1/6 cursor-pointer' src={LogoURL} alt="LOGO" onClick={ToTOP} />
         </div>
 
@@ -88,7 +88,7 @@ function App() {
 
             <div className='flex flex-col gap-5 items-start bg-zinc-900 rounded-lg pl-5 pt-10 pb-10 pr-10'>
               <div ref={TextChange} className='text-5xl whitespace-pre-line'>{Texts[0]}</div>
-              <div className='text-xl whitespace-pre-line'>{'we have vast customer base already in\n pune with over 10,000 regular customer'}</div>
+              <div className='text-xl whitespace-pre-line'>{'we have vast customer base already\n with over 10,000 regular customer'}</div>
               <button className='bg-white p-2 rounded-md text-zinc-600 hover:bg-green-400 hover:text-black'>GET FRANCHISE</button>
             </div>
 
@@ -107,7 +107,7 @@ function App() {
             <div className='text-center mb-5'>
               Owning a franchise not only will give you the opportunity to take charge of your own
               successful business but also allows you to be a part of the movement in the business of health supplements.
-              If you are accepted as a UrbanFit Franchise owner, you will be a partner of India’s fastest growing fitness
+              If you are accepted as a UrbanFit Franchise owner, you will be a partner of fastest growing fitness
               tech brand and the most trustworthy name in the industry
             </div>
             <div className='flex gap-10'>
@@ -152,13 +152,13 @@ function App() {
             <div className='text-5xl Title'>UrbanFit Location</div>
             <div className='flex w-full justify-evenly'>
               <div>
-                UrbanFit Shop - F Residency
+                UrbanFit Shop - Somewhere
               </div>
               <div>
-                UrbanFit Shop - Kharadi
+                UrbanFit Shop - Somewhere
               </div>
               <div>
-                UrbanFit Shop - Bibewadi
+                UrbanFit Shop - Somewhere
               </div>
             </div>
           </div>
@@ -246,7 +246,7 @@ function App() {
                       Franchise Fee 5 Lacs
                     </div>
                     <div>
-                      Start your Franchise Business Under Rs.5 Lakh Now. Check out India's most wanted Franchise Opportunity Under Rs.5 Lakh Only
+                      Start your Franchise Business Under Rs.5 Lakh Now. Check out most wanted Franchise Opportunity Under Rs.5 Lakh Only
                     </div>
                   </div>
                 </div>
@@ -368,10 +368,10 @@ function App() {
               <img src={LogoURL} alt="Logo" />
             </div>
             <div className='whitespace-pre-line mb-5 mt-5'>
-              {'Cerebrum IT Park, OFFICE NO. 1 E,\n WING NO. B3, SECOND FLOOR,\n Kalyani Nagar, Pune,\n Maharashtra-411014, India'}
+              {'10F, 4-1-13 Toranomon\n Minato-ku, Tokyo\n Japan'}
             </div>
             <div className='whitespace-pre-line'>
-              {'Ph: 8390836100, 9921212116 \n Email: info@urbanfitwellness.com'}
+              {'Ph: 0000000000, 1111111111 \n Email: example@urbanfitwellness.com'}
             </div>
           </div>
           <div className='flex gap-20'>
@@ -414,7 +414,7 @@ function App() {
         </div>
 
         <div ref={Footer2} className='flex justify-evenly bg-zinc-800 p-6 text-white text-sm'>
-          <div> @2022 Urbanfit Wellness Private Limited</div>
+          <div> @{new Date().getFullYear()} Urbanfit Wellness Pvt. Limited</div>
           <div> Privacy Policy</div>
         </div>
       </Suspense>
